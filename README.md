@@ -1,180 +1,63 @@
-<html lang="pt">
+
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fakku Bar - O melhor bar com música ao vivo e pagode em São Paulo.">
+    <meta name="keywords" content="Fakku Bar, música, pagode, eventos, São Paulo">
     <title>Fakku Bar</title>
     <style>
-        body {
-            text-align: center;
-            background-color: #000;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-        .logo-container {
-            margin-top: 50px;
-        }
-        .logo-container img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%;
-            height: auto; /* Mantém o tamanho original sem distorção */
-        }
-    </style>
-</head>
-<body>
-
-    <div class="logo-container">
-        <img src="logo.png" alt="Logo Fakku Bar"> <!-- Substitua pelo caminho correto da imagem -->
-    </div>
-
-</body>
-
-    <div class="logo-container">
-        <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fakku Bar</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-         .logo-container {
-            position: absolute;
-            top: 20px; /* Ajuste a distância do topo */
-            left: 20px; /* Ajuste a distância da esquerda */
-        }
-        .logo-container img {
-            display: block;
-            max-width: 100%;
-            height: auto; /* Mantém o tamanho original sem distorção */
-        }
-        h1 {
-            margin: 0;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #000; /* Preto */
-            padding: 10px;
-        }
-        nav a {
-            color: #FFD700; /* Dourado */
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #FFD700; /* Dourado */
-            color: #000; /* Preto */
-            transition: 0.3s;
-        }
-        section {
-            padding: 20px;
-            text-align: center;
-        }
-        .cardapio, .promocoes {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .item {
-            border: 1px solid #ccc;
-            margin: 10px;
-            padding: 15px;
-            border-radius: 5px;
-            width: 30%;
-        }
-        footer {
-            background-color: #000; /* Preto */
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        @media (max-width: 768px) {
-            .item {
-                width: 80%;
+        /* Existing styles here */
+        @media (max-width: 600px) {
+            nav a {
+                margin: 0 10px;
+            }
+            .banner img {
+                max-width: 100%;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Fakku</h1>
-        <p>O melhor pagode e drinks de São Paulo!</p>
+        <img src="https://i.imgur.com/EXEMPLO.png" alt="Logo do Fakku Bar, um bar de pagode em São Paulo">
     </header>
-    
     <nav>
-        <a href="#home">Home</a>
-        <a href="#programacao">Programação</a>
-        <a href="#promocoes">Promoções</a>
-        <a href="#cardapio">Cardápio</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#localizacao">Localização e Contato</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato">Contato</a>
     </nav>
-
-    <section id="home">
-        <h2>Bem-vindo ao Fakku Bar!</h2>
-        <img src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="Ambiente do Fakku Bar" style="width:100%; max-height:400px; object-fit:cover;">
-    </section>
-
-    <section id="programacao">
-        <h2>Programação</h2>
-        <div>
-            <p>Confira nossa agenda de shows e DJs!</p>
-            <img src="banner-show.jpg" alt="Shows no Fakku Bar" style="width:100%; max-height:300px; object-fit:cover;">
+    <main>
+        <div class="banner">
+            <img src="https://i.imgur.com/EXEMPLO2.png" alt="Banner promocional do Pagode no Fakku">
+            <h1>Bem-vindo ao Fakku Bar!</h1>
+            <p>O melhor bar com música ao vivo e pagode de sexta a domingo!</p>
         </div>
-    </section>
-
-    <section id="promocoes">
-        <h2>Promoções</h2>
-        <div class="promocoes">
-            <div class="item">
-                <h3>Promoção 1</h3>
-                <p>50% de desconto em todos os drinks!</p>
-            </div>
-            <div class="item">
-                <h3>Promoção 2</h3>
-                <p>Compre 1, leve 2 em porções!</p>
-            </div>
+        <div class="content">
+            <section id="sobre">
+                <h2>Sobre Nós</h2>
+                <p>O Fakku Bar é o lugar perfeito para quem ama boa música, um ambiente descontraído e ótimo atendimento. Localizado em Vila Buarque, São Paulo, trazemos o melhor do pagode ao vivo para você e seus amigos curtirem o final de semana!</p>
+            </section>
+            <section id="eventos">
+                <h2>Próximos Eventos</h2>
+                <p>🎵 Pagode ao vivo toda sexta, sábado e domingo a partir das 20h.</p>
+                <p>🎤 Bandas locais e convidados especiais trazendo os maiores sucessos do pagode.</p>
+            </section>
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>📍 Rua Dr. Cesário Mota Júnior, 629 - Vila Buarque, São Paulo</p>
+                <p>📞 Telefone: (11) 1234-5678</p>
+                <p>📧 E-mail: <a href="mailto:contato@fakkubar.com">contato@fakkubar.com</a></p>
+            </section>
         </div>
-    </section>
-
-    <section id="cardapio">
-        <h2>Cardápio</h2>
-        <div class="cardapio">
-            <div class="item">
-                <h3>Bebidas</h3>
-                <p>Caipirinha, Cerveja, e muito mais!</p>
-            </div>
-            <div class="item">
-                <h3>Porções</h3>
-                <p>Frango à passarinho, Batata frita, e outras delícias!</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="galeria">
-        <h2>Galeria</h2>
-        <p>Confira fotos e vídeos do nosso bar!</p>
-        <img src="Post Instagram - Faça o seu pedido - Delivery - It's a Match - Tinder - Pizza - pizzaria.png" alt="Post Instagram - Faça o seu pedido - Delivery - It's a Match - Tinder - Pizza - pizzaria.png" style="width:100%; max-height:400px; object-fit:cover;">
-        <img src="Miniatura Youtube Jogo de Futebol Ao Vivo Transmissão de jogo e live.png" alt="Miniatura Youtube Jogo de Futebol Ao Vivo Transmissão de jogo e live.png" style="width:100%; max-height:400px; object-fit:cover;">
-    </section>
-
-    <section id="localizacao">
-        <h2>Localização e Contato</h2>
-        <p>Endereço: Rua Dr. Cesário Mota Jr., nº 629, São Paulo</p>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.854679133679!2d-46.65593898502163!3d-23.56442178468106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c0c1d3c7c7%3A0x9b0a30cb4c1837b8!2sFakku%20Bar!5e0!3m2!1spt-BR!2sbr!4v1638324205865!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <p>Siga-nos nas redes sociais!</p>
-        <a href="https://www.instagram.com/fakkubar" target="_blank">Instagram</a>
-    </section>
-
+    </main>
     <footer>
-        <p>&copy; 2023 Fakku Bar. Todos os direitos reservados.</p>
-        <p>Faça sua reserva pelo WhatsApp!</p>
+        <p>&copy; 2025 Fakku Bar. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <a href="mailto:voce@exemplo.com">você</a>.</p>
+        <div>
+            <a href="https://facebook.com/fakkubar" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com/fakkubar" target="_blank">Instagram</a>
+        </div>
     </footer>
 </body>
-
+</html>
