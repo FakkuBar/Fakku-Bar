@@ -1,5 +1,30 @@
- <img src="fakku bar logo novo.jpg" alt="Ambiente do Fakku Bar" style="width:100%; max-height:250px; object-fit:cover;">
-<html lang="pt-BR">
+ <html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakku Bar</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .logo-container {
+            margin-top: 50px;
+        }
+        .logo-container img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto; /* Mantém o tamanho original sem distorção */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="fakku bar logo novo.jpg" alt="Logo Fakku Bar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
