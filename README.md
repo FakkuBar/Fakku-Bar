@@ -1,4 +1,4 @@
- <html lang="pt">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +10,24 @@
             color: white;
             font-family: Arial, sans-serif;
         }
-         .logo-container {
-            position: absolute;
-            top: 20px; /* Ajuste a distância do topo */
-            left: 20px; /* Ajuste a distância da esquerda */
+        .logo-container {
+            margin-top: 50px;
         }
         .logo-container img {
             display: block;
+            margin: 0 auto;
             max-width: 100%;
             height: auto; /* Mantém o tamanho original sem distorção */
         }
     </style>
 </head>
 <body>
+
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo Fakku Bar"> <!-- Substitua pelo caminho correto da imagem -->
+    </div>
+
+</body>
 
     <div class="logo-container">
         <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
@@ -32,18 +37,15 @@
     <title>Fakku Bar</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fff;
-            color: #333;
+         .logo-container {
+            position: absolute;
+            top: 20px; /* Ajuste a distância do topo */
+            left: 20px; /* Ajuste a distância da esquerda */
         }
-        header {
-            background-color: #a40000; /* Vermelho */
-            color: white;
-            padding: 20px;
-            text-align: center;
+        .logo-container img {
+            display: block;
+            max-width: 100%;
+            height: auto; /* Mantém o tamanho original sem distorção */
         }
         h1 {
             margin: 0;
