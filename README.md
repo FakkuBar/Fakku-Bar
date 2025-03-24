@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="https://i.imgur.com/EXEMPLO.png" alt="Logo do Fakku Bar, um bar de pagode em São Paulo">
+        <img src="[https://https://github.com/FakkuBar/Fakku-Bar/blob/main/fakku%20bar%20logo%20novo.jpg?raw=true" alt="fakku bar logo novo">
     </header>
     <nav>
         <a href="#sobre">Sobre</a>
