@@ -94,7 +94,7 @@
     </div>
     <footer>
         <p>&copy; 2025 Fakku Bar. Todos os direitos reservados.</p>
-        <p>Desenvolvido por <a href="mailto:voce@exemplo.com">você</a>.</p>
+        <p>Desenvolvido por <a href="mailto:fakkubar@exemplo.com">fakkubar</a>.</p>
     </footer>
 </body>
 </html>
