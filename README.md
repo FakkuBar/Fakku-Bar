@@ -155,7 +155,8 @@
     <section id="galeria">
         <h2>Galeria</h2>
         <p>Confira fotos e vídeos do nosso bar!</p>
-        <img src="imagem-galeria.jpg" alt="Galeria de imagens do Fakku Bar" style="width:100%; max-height:400px; object-fit:cover;">
+        <img src="Post Instagram - Faça o seu pedido - Delivery - It's a Match - Tinder - Pizza - pizzaria.png" alt="Post Instagram - Faça o seu pedido - Delivery - It's a Match - Tinder - Pizza - pizzaria.png" style="width:100%; max-height:400px; object-fit:cover;">
+        <img src="Miniatura Youtube Jogo de Futebol Ao Vivo Transmissão de jogo e live.png" alt="Miniatura Youtube Jogo de Futebol Ao Vivo Transmissão de jogo e live.png" style="width:100%; max-height:400px; object-fit:cover;">
     </section>
 
     <section id="localizacao">
@@ -173,4 +174,4 @@
         <p>Faça sua reserva pelo WhatsApp!</p>
     </footer>
 </body>
-</html>
+
