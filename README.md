@@ -24,7 +24,7 @@
 <body>
 
     <div class="logo-container">
-        <img src="fakku bar logo novo.jpg" alt="Logo Fakku Bar">
+        <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
