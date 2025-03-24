@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="[https://https://github.com/FakkuBar/Fakku-Bar/blob/main/fakku%20bar%20logo%20novo.jpg?raw=true" alt="fakku bar logo novo">
+        <img src="https://https://github.com/FakkuBar/Fakku-Bar/blob/main/fakku%20bar%20logo%20novo.jpg?raw=true" alt="fakku bar logo novo">
     </header>
     <nav>
         <a href="#sobre">Sobre</a>
@@ -29,7 +29,7 @@
     </nav>
     <main>
         <div class="banner">
-            <img src="https://i.imgur.com/EXEMPLO2.png" alt="Banner promocional do Pagode no Fakku">
+            <img src="https://460575885_1259010748853725_7475187610060210292_n.jpg" alt="460575885 1259010748853725 7475187610060210292 n">
             <h1>Bem-vindo ao Fakku Bar!</h1>
             <p>O melhor bar com música ao vivo e pagode de sexta a domingo!</p>
         </div>
