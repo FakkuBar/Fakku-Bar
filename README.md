@@ -10,12 +10,13 @@
             color: white;
             font-family: Arial, sans-serif;
         }
-        .logo-container {
-            margin-top: 50px;
+         .logo-container {
+            position: absolute;
+            top: 20px; /* Ajuste a distância do topo */
+            left: 20px; /* Ajuste a distância da esquerda */
         }
         .logo-container img {
             display: block;
-            margin: 0 auto;
             max-width: 100%;
             height: auto; /* Mantém o tamanho original sem distorção */
         }
