@@ -63,7 +63,7 @@
 </head>
 <body>
     <header>
-        <img src="https://i.imgur.com/EXEMPLO.png" alt="Logo Fakku Bar">
+        <img src="logotipo-do-bar-fakku-novo.jpg" alt="logotipo do bar fakku novo">
     </header>
     <nav>
         <a href="#sobre">Sobre</a>
