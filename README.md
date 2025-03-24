@@ -88,7 +88,7 @@
 
     <section id="home">
         <h2>Bem-vindo ao Fakku Bar!</h2>
-        <img src="imagem-bar.jpg" alt="Ambiente do Fakku Bar" style="width:100%; max-height:400px; object-fit:cover;">
+        <img src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="Ambiente do Fakku Bar" style="width:100%; max-height:400px; object-fit:cover;">
     </section>
 
     <section id="programacao">
