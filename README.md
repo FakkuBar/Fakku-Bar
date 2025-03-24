@@ -98,8 +98,8 @@
 </head>
 <body>
     <header>
-        <h1>Fakku Bar</h1>
-        <p>Slogan: O melhor pagode e drinks de São Paulo!</p>
+        <h1>Fakku</h1>
+        <p>O melhor pagode e drinks de São Paulo!</p>
     </header>
     
     <nav>
