@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+ <img src="fakku bar logo novo.jpg" alt="Ambiente do Fakku Bar" style="width:100%; max-height:400px; object-fit:cover;">
+    </section>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
