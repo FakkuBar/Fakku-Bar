@@ -100,7 +100,7 @@
         <h1>PROGRAMAÇÃO DA SEMANA</h1>
         <p>Confira os eventos e atrações especiais da semana!</p>
         <div class="image-grid">
-            <img src="match fakku bar.png" alt="match fakku bar.png">
+            <img src="match fakku 2.png" alt="match fakku 2.png">
             <img src="c X  p.png" alt="c X  p.png">
             <img src="imagem3.jpg" alt="Evento 3">
             <img src="imagem4.jpg" alt="Evento 4">
