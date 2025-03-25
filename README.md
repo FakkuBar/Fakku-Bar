@@ -1,56 +1,63 @@
-<!DOCTYPE html> 
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fakku Bar</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            font-family: Arial, sans-serif;
-            color: white;
-        }
-        .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 20px;
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-        .navbar img {
-            width: 100px; /* Ajustado para um tamanho pequeno */
-            height: auto;
-        }
-        .menu {
-            display: flex;
-            gap: 20px;
-        }
-        .menu a {
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-        }
-        .slogan {
-            font-size: 24px;
-            font-weight: bold;
-            color: #ff0000;
-            text-shadow: 0 0 8px #ff0000, 0 0 16px #ff4500;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="navbar">
-        <img src="/mnt/data/fakku bar logo novo.jpg" alt="Fakku Bar Logo">
-        <nav class="menu">
-            <a href="#">Home</a>
-            <a href="#">Programação</a>
-            <a href="#">Fotos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contato</a>
+    <header>
+        <img src="fakku-bar-logo.jpg" alt="Logo Fakku Bar">
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
-        <div class="slogan">Fakku Bar - O Melhor Lugar para Sua Noite</div>
     </header>
+
+    <section id="banner">
+        <video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <h1>O Melhor do Pagode e Futebol em um Só Lugar</h1>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre o Fakku Bar</h2>
+        <p>Pagode é matéria obrigatória e a diversão, nota 10! O Fakku Bar é o seu destino ideal para curtir música ao vivo, bons drinks e transmissão dos melhores jogos.</p>
+    </section>
+
+    <section id="eventos">
+        <h2>Eventos</h2>
+        <div class="eventos-container">
+            <img src="evento1.jpg" alt="Evento 1">
+            <img src="evento2.jpg" alt="Evento 2">
+            <img src="evento3.jpg" alt="Evento 3">
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="galeria-container">
+            <img src="1.JPG" alt="Foto 1">
+            <img src="2.JPG" alt="Foto 2">
+            <img src="3.JPG" alt="Foto 3">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>📍 Rua Dr. Cesário da Mota Jr, 629</p>
+        <p>📞 (11) 98158-9432</p>
+        <p>📲 Instagram: <a href="https://instagram.com/fakkubar">@fakkubar</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fakku Bar. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
