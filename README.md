@@ -73,7 +73,7 @@
         }
         .image-grid img {
             width: 500px;
-            height: 350px;
+            height: 900px;
             object-fit: cover;
             border-radius: 10px;
         }
