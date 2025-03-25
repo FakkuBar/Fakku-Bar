@@ -1,63 +1,43 @@
-<html class="no-js" lang="pt-br"> 
-<head>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Fakku Bar</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="HostCom Internet">
-    <meta http-equiv="content-language" content="pt-br" />
-    <META NAME='keywords' CONTENT='Fakku Bar, lounge, choperia, bar, club, casa noturna, casa de shows'>
-    <META NAME='description' CONTENT='Fakku Bar - O melhor da noite para você!'>
-    <META NAME='author' CONTENT='HostCom Internet'>
-    <META NAME='copyright' CONTENT='HostCom Internet'>
-    <META NAME='ROBOTS' CONTENT='ALL'>
-    <META NAME="RATING" CONTENT="Geral">
-    <META NAME="ROBOTS" CONTENT="index,follow"> 
-    <meta name="geo.region" content="BR" />
-    <meta name="geo.placename" content="São Paulo" />
-    <meta property="og:title" content="Fakku Bar" />
-    <meta property="og:type" content="product" />
-    <meta property="og:url" content="https://www.fakkubar.com.br" />
-    <meta property="og:image" content="images/fakku_logo.png" />
-    <meta property="og:site_name" content="Fakku Bar" />
-    <link rel="shortcut icon" href="images/favicon.png">
-    <meta name="theme-color" content="#000000">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <style>
-        body { background-color: black; color: white; }
-        .navbar-nav .nav-link { color: gold !important; }
-    </style>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="home">
-                    <img src="images/fakku_logo.png" alt="Fakku Bar">
-                </a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a href="home" target="_blank" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="programacao" target="_blank" class="nav-link">Programação</a></li>
-                        <li class="nav-item"><a href="fotos" target="_blank" class="nav-link">Fotos</a></li>
-                        <li class="nav-item"><a href="corporativos" target="_blank" class="nav-link">Eventos Corporativos</a></li>
-                        <li class="nav-item"><a href="contato" target="_blank" class="nav-link">Contato</a></li>
-                        <li class="nav-item"><a href="normas" target="_blank" class="nav-link">Normas e Restrições</a></li>
-                    </ul>
-                </div>
-            </div>
+import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+
+export default function FakkuBarEvent() {
+  return (
+    <div className="bg-gray-900 text-white min-h-screen">
+      {/* Header */}
+      <header className="bg-black py-4 px-6 flex justify-between items-center">
+        <h1 className="text-xl font-bold">FAKKU BAR</h1>
+        <nav>
+          <ul className="flex space-x-6">
+            <li><a href="#" className="hover:text-gray-400">Home</a></li>
+            <li><a href="#" className="hover:text-gray-400">Programação</a></li>
+            <li><a href="#" className="hover:text-gray-400">Fotos</a></li>
+            <li><a href="#" className="hover:text-gray-400">Eventos</a></li>
+            <li><a href="#" className="hover:text-gray-400">Contato</a></li>
+          </ul>
         </nav>
-    </header>
-    <section class="slider">
-        <div>
-            <img src="images/fakku_evento1.jpg" alt="Evento Fakku 1">
+      </header>
+      
+      {/* Banner do evento */}
+      <div className="relative w-full h-[500px]">
+        <Image src="/evento-fakku.jpg" layout="fill" objectFit="cover" alt="Banner do evento" />
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center p-6">
+          <h2 className="text-5xl font-bold text-yellow-500">FAKKU VIBE</h2>
+          <p className="text-2xl">Sexta, 12 de Abril - 22:00</p>
+          <p className="text-lg mt-2">Com MC Paiva, Baomi e DJ Nathi</p>
+          <Button className="mt-4 bg-yellow-500 text-black px-6 py-3 font-bold">Garanta seu ingresso</Button>
         </div>
-        <div>
-            <img src="images/fakku_evento2.jpg" alt="Evento Fakku 2">
-        </div>
-        <div>
-            <img src="images/fakku_evento3.jpg" alt="Evento Fakku 3">
-        </div>
-    </section>
-</body>
-</html>
+      </div>
+      
+      {/* Informações adicionais */}
+      <section className="p-8 text-center">
+        <h3 className="text-3xl font-bold mb-4">O melhor evento da cidade</h3>
+        <p className="text-lg max-w-3xl mx-auto">
+          Curta uma noite inesquecível no Fakku Bar com os maiores nomes da música e um ambiente sofisticado.
+        </p>
+      </section>
+    </div>
+  );
+}
