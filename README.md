@@ -39,13 +39,11 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
+        <img src="fakku bar logo novo.jpg" alt="Fakku Bar Logo">
         <a href="#home">Home</a>
         <a href="#programacao">Programação</a>
-        <a href="#fotos">Fotos</a>
         <a href="#eventos">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
-        <a href="#normas">Normas e Restrições</a>
     </div>
     <div class="container">
         <h1>Bem-vindo ao Fakku Bar</h1>
