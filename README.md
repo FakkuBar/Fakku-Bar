@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,65 +7,50 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            padding: 0;
             background-color: black;
+            font-family: Arial, sans-serif;
             color: white;
         }
-        .header {
+        .navbar {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: #111;
-            padding: 15px 30px;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.8);
         }
-        .logo img {
-            height: 50px;
+        .navbar img {
+            width: 100px; /* Ajustado para um tamanho pequeno */
+            height: auto;
         }
-        .nav {
+        .menu {
             display: flex;
             gap: 20px;
         }
-        .nav a {
-            color: white;
+        .menu a {
             text-decoration: none;
+            color: white;
             font-size: 18px;
-            transition: 0.3s;
         }
-        .nav a:hover {
-            color: red;
-        }
-        .hero {
-            position: relative;
-            width: 100%;
-            height: 80vh;
-            background: url('Miniatura%20Youtube%20Jogo%20de%20Futebol%20Ao%20Vivo%20Transmiss%C3%A3o%20de%20jogo%20e%20live.jpg') center/cover;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .hero h1 {
-            font-size: 50px;
-            background: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 10px;
+        .slogan {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0000;
+            text-shadow: 0 0 8px #ff0000, 0 0 16px #ff4500;
         }
     </style>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="fakku-logo.png" alt="Fakku Bar Logo">
-        </div>
-        <nav class="nav">
+    <header class="navbar">
+        <img src="/mnt/data/fakku bar logo novo.jpg" alt="Fakku Bar Logo">
+        <nav class="menu">
             <a href="#">Home</a>
             <a href="#">Programação</a>
             <a href="#">Fotos</a>
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
+        <div class="slogan">Fakku Bar - O Melhor Lugar para Sua Noite</div>
     </header>
-    <section class="hero">
-        <h1>Fakku Bar - O Melhor Lugar para Sua Noite</h1>
-    </section>
 </body>
 </html>
