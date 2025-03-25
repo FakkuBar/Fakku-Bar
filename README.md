@@ -6,29 +6,25 @@
     <title>Fakku Bar</title>
     <style>
         body {
-            background-color: #d3d3d3; /* Cinza claro */
+            background-color: black;
             margin: 0;
             font-family: Arial, sans-serif;
         }
         .navbar {
-            background-color: #111;
+            background-color: gold;
+            padding: 15px;
             text-align: center;
-            padding: 15px 0;
         }
         .navbar a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
             font-size: 18px;
-            font-weight: bold;
+            margin: 0 15px;
         }
-        .banner {
-            width: 100%;
+        .content {
+            color: white;
             text-align: center;
-        }
-        .banner img {
-            max-width: 100%;
-            height: auto;
+            padding: 50px;
         }
     </style>
 </head>
@@ -41,8 +37,9 @@
         <a href="#contato">Contato</a>
         <a href="#normas">Normas e Restrições</a>
     </div>
-    <div class="banner">
-        <img src="/mnt/data/5.JPG" alt="Banner Fakku Bar">
+    <div class="content">
+        <h1>Bem-vindo ao Fakku Bar</h1>
+        <p>Seu destino para diversão e entretenimento!</p>
     </div>
 </body>
 </html>
