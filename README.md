@@ -67,8 +67,8 @@
             margin-top: 40px;
         }
         .image-grid img {
-            width: 500px;
-            height: 400px;
+            width: 400px;
+            height: 300px;
             object-fit: cover;
             border-radius: 10px;
         }
