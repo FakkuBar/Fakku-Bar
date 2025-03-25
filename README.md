@@ -100,7 +100,7 @@
         <h1>PROGRAMAÇÃO DA SEMANA</h1>
         <p>Confira os eventos e atrações especiais da semana!</p>
         <div class="image-grid">
-            <img src="imagem1.jpg" alt="Evento 1">
+            <img src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
             <img src="imagem2.jpg" alt="Evento 2">
             <img src="imagem3.jpg" alt="Evento 3">
             <img src="imagem4.jpg" alt="Evento 4">
