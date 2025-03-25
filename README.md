@@ -18,6 +18,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
+            z-index: 2;
         }
         .navbar img {
             height: 50px;
@@ -53,6 +55,8 @@
             background-size: cover;
             padding: 50px;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
         #programacao h1 {
             font-size: 48px;
@@ -61,11 +65,10 @@
             text-transform: uppercase;
         }
         .image-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
+            gap: 20px;
             margin-top: 40px;
         }
         .image-grid img {
