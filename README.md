@@ -35,6 +35,16 @@
             text-align: center;
             padding: 50px;
         }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 80%;
+            max-width: 800px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -48,6 +58,9 @@
     <div class="container">
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
+        <div class="image-container">
+            <img src="imagem-banner.jpg" alt="Imagem do Fakku Bar">
+        </div>
     </div>
 </body>
 </html>
