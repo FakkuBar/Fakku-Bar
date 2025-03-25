@@ -105,7 +105,7 @@
         <h1>PROGRAMAÇÃO DA SEMANA</h1>
         <p>Confira os eventos e atrações especiais da semana!</p>
         <div class="image-grid">
-            <img src="match fakku 2.png" alt="match fakku 2.png">
+            <img src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Stories Instagram jogo de futebol várzea grunge vermelho (1).png">
             <img src="c X  p.png" alt="c X  p.png">
             <img src="quarta delas.png" alt="quarta delas.png">
             <img src="imagem4.jpg" alt="Evento 4">
