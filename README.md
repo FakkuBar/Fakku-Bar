@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -15,6 +14,13 @@
             background-color: black;
             padding: 15px;
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .navbar img {
+            height: 50px;
+            margin-right: 20px;
         }
         .navbar a {
             color: white;
@@ -33,6 +39,7 @@
 </head>
 <body>
     <div class="navbar">
+        <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
         <a href="#home">Home</a>
         <a href="#programacao">Programação</a>
         <a href="#fotos">Fotos</a>
