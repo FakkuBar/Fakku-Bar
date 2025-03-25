@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: black;
+            background: linear-gradient(to bottom, black, #d3d3d3);
             font-family: Arial, sans-serif;
             color: white;
         }
@@ -35,14 +35,14 @@
         .slogan {
             font-size: 24px;
             font-weight: bold;
-            color: #ff0000;
-            text-shadow: 0 0 8px #ff0000, 0 0 16px #ff4500;
+            color: #ff3333;
+            text-shadow: 0 0 6px #ff6666, 0 0 12px #ff9999;
         }
     </style>
 </head>
 <body>
     <header class="navbar">
-        <img src="/mnt/data/fakku bar logo novo.jpg" alt="Fakku Bar Logo">
+        <img src="fakku_bar_logo_novo.jpg" alt="Fakku Bar Logo">
         <nav class="menu">
             <a href="#">Home</a>
             <a href="#">Programação</a>
