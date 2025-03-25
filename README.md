@@ -59,7 +59,7 @@
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
         <div class="image-container">
-            <img src="imagem-banner.jpg" alt="Imagem do Fakku Bar">
+            <img src="Miniatura Youtube Jogo de Futebol Ao Vivo Transmissão de jogo e live.jpg" alt="Miniatura Youtube Jogo de Futebol Ao Vivo Transmissão de jogo e live.jpg">
         </div>
     </div>
 </body>
