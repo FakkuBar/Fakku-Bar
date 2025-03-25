@@ -107,8 +107,8 @@
         <div class="image-grid">
             <img src="quarta delas.jpg" alt="quarta delas.jpg">
             <img src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="quarta delas.jpg">
-            <img src="quarta delas.png" alt="quarta delas.png">
-            <img src="imagem4.jpg" alt="Evento 4">
+            <img src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Story para Instagram Noite do Pagode Preto Popular.png">
+            <img src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
         </div>
     </div>
 </body>
