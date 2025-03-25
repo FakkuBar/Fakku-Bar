@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -7,11 +8,11 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #FFD700, #000000);
+            background-color: black;
             color: white;
         }
         .navbar {
-            background-color: black;
+            background-color: red;
             padding: 15px;
             text-align: center;
             display: flex;
