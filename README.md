@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -61,15 +61,16 @@
             text-transform: uppercase;
         }
         .image-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
+            justify-content: center;
+            align-items: center;
             margin-top: 40px;
         }
         .image-grid img {
-            width: 400px;
-            height: 300px;
+            width: 500px;
+            height: 350px;
             object-fit: cover;
             border-radius: 10px;
         }
