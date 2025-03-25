@@ -18,8 +18,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            position: relative;
-            z-index: 2;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
         .navbar img {
             height: 50px;
@@ -37,7 +39,7 @@
         }
         .container {
             text-align: center;
-            padding: 50px;
+            padding: 80px 20px 50px;
         }
         .image-container {
             display: flex;
@@ -49,14 +51,11 @@
             max-width: 800px;
             height: auto;
         }
-        /* Estilos para a seção de programação */
         #programacao {
-            background: url('o-projeto-abstrato-do-fundo-ouro-amarelo-beira-tem-bordas-da-cor-escura-projetor-preto-sol-ou-luz-com-sombra-108765387.jpg') no-repeat center center fixed;
+            background: url('o-projeto-abstrato-do-fundo-ouro-amarelo.jpg') no-repeat center center fixed;
             background-size: cover;
             padding: 50px;
             text-align: center;
-            position: relative;
-            z-index: 1;
         }
         #programacao h1 {
             font-size: 48px;
@@ -65,17 +64,38 @@
             text-transform: uppercase;
         }
         .image-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
+            justify-content: center;
             margin-top: 40px;
         }
         .image-grid img {
-            width: 500px;
+            width: 100%;
+            max-width: 500px;
             height: 900px;
             object-fit: cover;
             border-radius: 10px;
+        }
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+        }
+        .floating-button img {
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .image-grid {
+                grid-template-columns: 1fr;
+            }
+            .image-grid img {
+                height: auto;
+            }
         }
     </style>
     <script>
@@ -86,7 +106,7 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="fakku bar logo novo.jpg" alt="Fakku Bar Logo">
+        <img src="fakku_bar_logo_novo.jpg" alt="Fakku Bar Logo">
         <a href="#home">Home</a>
         <a href="#programacao" onclick="exibirProgramacao()">Programação</a>
         <a href="#eventos">Eventos Corporativos</a>
@@ -96,20 +116,23 @@
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
         <div class="image-container">
-            <img src="Miniatura Youtube Jogo de Futebol Ao Vivo Transmissão de jogo e live.jpg" alt="Imagem do Fakku Bar">
+            <img src="Miniatura_Youtube_Jogo_de_Futebol.jpg" alt="Imagem do Fakku Bar">
         </div>
     </div>
     
-    <!-- Seção de Programação -->
     <div id="programacao">
         <h1>PROGRAMAÇÃO DA SEMANA</h1>
         <p>Confira os eventos e atrações especiais da semana!</p>
         <div class="image-grid">
-            <img src="quarta delas.jpg" alt="quarta delas.jpg">
-            <img src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="quarta delas.jpg">
-            <img src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Story para Instagram Noite do Pagode Preto Popular.png">
-            <img src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
+            <img src="quarta_delas.jpg" alt="Quarta Delas">
+            <img src="Stories_Instagram_jogo_de_futebol.png" alt="Jogo de Futebol">
+            <img src="Story_Instagram_Noite_do_Pagode.png" alt="Noite do Pagode">
+            <img src="Story_Match_Divertido.png" alt="Match Divertido">
         </div>
     </div>
+    
+    <button class="floating-button" onclick="window.location.href='https://www.exemplo.com'">
+        <img src="botao_icone.png" alt="Botão">
+    </button>
 </body>
 </html>
