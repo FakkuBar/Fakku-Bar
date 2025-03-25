@@ -1,9 +1,9 @@
 
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fakku Bar - Pagode & Drinks</title>
+    <title>Fakku Bar - Pagode ao Vivo</title>
     <style>
         body {
             background-color: black;
@@ -11,64 +11,60 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
         header {
             background-color: red;
             padding: 20px;
+            text-align: center;
             font-size: 24px;
             font-weight: bold;
         }
-        .hero {
-            background: url('hero-image.jpg') no-repeat center center/cover;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 36px;
-            font-weight: bold;
-            color: gold;
-            text-shadow: 2px 2px 4px black;
-        }
-        .content {
+        .container {
+            max-width: 1200px;
+            margin: auto;
             padding: 20px;
+            text-align: center;
         }
-        .button {
-            background-color: gold;
-            color: black;
-            padding: 10px 20px;
-            text-decoration: none;
+        .highlight {
+            color: gold;
+            font-size: 20px;
             font-weight: bold;
-            border-radius: 5px;
-            display: inline-block;
-            margin: 10px;
+        }
+        .map {
+            margin-top: 20px;
         }
         footer {
             background-color: red;
             padding: 10px;
-            font-size: 14px;
-        }
-        .map {
-            margin: 20px 0;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <header>FAKKU BAR - PAGODE & DRINKS</header>
-    <div class="hero">O melhor do pagode ao vivo!</div>
-    <div class="content">
-        <h2>Venha curtir uma noite inesquecível!</h2>
-        <p>Drinks exclusivos, porções deliciosas e o melhor do pagode ao vivo ao lado da estação Mackenzie.</p>
-        <a href="#localizacao" class="button">Nossa Localização</a>
-        <a href="#contato" class="button">Redes Sociais</a>
-    </div>
-    <div class="map" id="localizacao">
-        <h2>Onde estamos?</h2>
-        <p>Rua Dr. Cesário Mota Jr., nº 629 - São Paulo</p>
-        <iframe src="https://maps.google.com/maps?q=Rua%20Dr.%20Ces%C3%A1rio%20Mota%20Jr.,%20629&t=&z=15&ie=UTF8&iwloc=&output=embed" width="80%" height="300" style="border:0;" allowfullscreen></iframe>
+    <header>
+        Fakku Bar - Pagode, Drinks & Porções
+    </header>
+    <div class="container">
+        <p class="highlight">Venha curtir o melhor do pagode ao vivo em São Paulo!</p>
+        <p>Estamos localizados ao lado da estação Mackenzie, na Rua Dr. Cesário Mota Jr., nº 629.</p>
+        <div class="map">
+            <iframe 
+                width="600" 
+                height="450" 
+                style="border:0" 
+                loading="lazy" 
+                allowfullscreen 
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed/v1/place?q=Rua+Dr.+Cesário+Mota+Jr.,+629,+São+Paulo&key=SUA_CHAVE_DO_GOOGLE_MAPS">
+            </iframe>
+        </div>
+        <p>Nos siga nas redes sociais para ficar por dentro da programação!</p>
     </div>
     <footer>
-        <p>&copy; 2024 Fakku Bar - Todos os direitos reservados.</p>
+        &copy; 2024 Fakku Bar | Desenvolvido para GitHub
     </footer>
 </body>
 </html>
