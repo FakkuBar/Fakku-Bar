@@ -70,7 +70,7 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="fakku bar logo novo.jpg" alt="Fakku Bar Logo">
+        <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
         <a href="index.html">Programação</a>
         <a href="cardapio.pdf" target="_blank">Cardápio</a>
         <a href="#eventos">Eventos Corporativos</a>
@@ -79,11 +79,11 @@
     <div class="container">
         <h1>Programação</h1>
         <div class="slideshow-container">
-            <img class="slides fade" src="quarta_delas.jpg" alt="Quarta Delas">
-            <img class="slides fade" src="futebol_varzea.png" alt="Jogo de Futebol">
-            <img class="slides fade" src="noite_pagode.png" alt="Noite do Pagode">
-            <img class="slides fade" src="story_match.png" alt="Story Match">
-            <img class="slides fade" src="evento_especial.jpg" alt="Evento Especial">
+            <img class="slides fade" src="quarta_delas.jpg" alt="quarta_delas.jpg">
+            <img class="slides fade" src="futebol_varzea.png" alt="futebol_varzea.png">
+            <img class="slides fade" src="noite_pagode.png" alt="noite_pagode.png">
+            <img class="slides fade" src="story_match.png" alt="story_match.png">
+            <img class="slides fade" src="evento_especial.jpg" alt="evento_especial.jpg">
         </div>
     </div>
     <a href="Design sem nome.pdf">
