@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -72,7 +72,7 @@
     <div class="navbar">
         <img src="fakku bar logo novo.jpg" alt="Fakku Bar Logo">
         <a href="index.html">Programação</a>
-        <a href="programacao.html">Cardápio</a>
+        <a href="cardapio.pdf" target="_blank">Cardápio</a>
         <a href="#eventos">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
     </div>
@@ -86,7 +86,7 @@
             <img class="slides fade" src="evento_especial.jpg" alt="Evento Especial">
         </div>
     </div>
-    <a href="outra_pagina.html">
+    <a href="Design sem nome.pdf">
         <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
     <script>
