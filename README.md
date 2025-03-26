@@ -52,15 +52,21 @@
             padding: 50px;
             margin-top: 80px;
         }
-        .image-container {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
+        .slideshow-container {
+            max-width: 80%;
+            position: relative;
+            margin: auto;
         }
-        .image-container img {
-            width: 80%;
-            max-width: 800px;
-            height: auto;
+        .slides {
+            display: none;
+            width: 100%;
+        }
+        .fade {
+            animation: fadeEffect 2s infinite;
+        }
+        @keyframes fadeEffect {
+            from {opacity: 0.4;} 
+            to {opacity: 1;}
         }
         .floating-button {
             position: fixed;
@@ -82,12 +88,30 @@
     <div class="container">
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
-        <div class="image-container">
-            <img src="miniatura_youtube.jpg" alt="Miniatura YouTube">
+        <div class="slideshow-container">
+            <img class="slides fade" src="foto1.jpg" alt="Foto 1">
+            <img class="slides fade" src="foto2.jpg" alt="Foto 2">
+            <img class="slides fade" src="foto3.jpg" alt="Foto 3">
+            <img class="slides fade" src="foto4.jpg" alt="Foto 4">
+            <img class="slides fade" src="foto5.jpg" alt="Foto 5">
         </div>
     </div>
     <a href="outra_pagina.html">
         <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); 
+        }
+    </script>
 </body>
 </html>
