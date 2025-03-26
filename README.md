@@ -40,9 +40,13 @@
             text-align: center;
             padding: 50px;
             margin-top: 80px;
+            display: flex; /* Usar flexbox para layout */
+            justify-content: center; /* Centraliza o conteúdo */
+            align-items: center; /* Alinha no centro verticalmente */
+            flex-direction: column; /* Coloca itens em coluna */
         }
         .slideshow-container {
-            max-width: 80%;
+            max-width: 80%; /* Largura do slideshow */
             position: relative;
             margin: auto;
         }
@@ -58,6 +62,14 @@
             from {opacity: 0.4;} 
             to {opacity: 1;}
         }
+        .text-box {
+            max-width: 45%; /* Largura da caixa de texto */
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: left;
+        }
         .floating-button {
             position: fixed;
             bottom: 20px;
@@ -67,6 +79,9 @@
         }
         .hidden {
             display: none; /* Oculta a seção inicialmente */
+        }
+        h1 {
+            margin-bottom: 20px; /* Margin para separar o título das imagens */
         }
     </style>
 </head>
@@ -80,7 +95,7 @@
     </div>
 
     <div id="programacao" class="container">
-        <h1>Programação</h1>
+        <h1>Programação Semanal</h1> <!-- Título atualizado -->
         <div class="slideshow-container">
             <img class="slides fade" src="quarta delas.jpg" alt="quarta delas.jpg">
             <img class="slides fade" src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Stories Instagram jogo de futebol várzea grunge vermelho (1).png">
@@ -91,9 +106,18 @@
     </div>
 
     <div id="eventos" class="container hidden">
-        <h1>Eventos Corporativos</h1>
-        <p>Aqui você encontrará informações sobre nossos eventos corporativos.</p>
-        <!-- Adicione mais conteúdo sobre eventos corporativos aqui -->
+        <div class="slideshow-container">
+            <img class="slides fade" src="evento1.jpg" alt="Evento 1">
+            <img class="slides fade" src="evento2.jpg" alt="Evento 2">
+            <img class="slides fade" src="evento3.jpg" alt="Evento 3">
+            <img class="slides fade" src="evento4.jpg" alt="Evento 4">
+        </div>
+        <div class="text-box">
+            <h1>Eventos Corporativos</h1>
+            <p>Aqui você encontrará informações sobre nossos eventos corporativos.</p>
+            <p>Estamos prontos para atender suas necessidades e fazer de seu evento um sucesso!</p>
+            <!-- Adicione mais conteúdo sobre eventos corporativos aqui -->
+        </div>
     </div>
 
     <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link">
@@ -121,6 +145,7 @@
                 section.classList.add('hidden');
             });
             document.getElementById(sectionId).classList.remove('hidden');
+            showSlides(); // Reinicia o slideshow ao mudar de seção
         }
     </script>
 </body>
