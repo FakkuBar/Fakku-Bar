@@ -1,3 +1,4 @@
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -36,6 +37,15 @@
         .navbar a:hover {
             color: #FFD700;
         }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                padding: 10px;
+            }
+            .navbar img {
+                margin-bottom: 10px;
+            }
+        }
         .container {
             text-align: center;
             padding: 50px;
@@ -51,9 +61,9 @@
             max-width: 800px;
             height: auto;
         }
-        /* Estilos para a seção de programação */
         #programacao {
-            background: url('o-projeto-abstrato-do-fundo-ouro-amarelo-beira-tem-bordas-da-cor-escura-projetor-preto-sol-ou-luz-com-sombra-108765387.jpg') no-repeat center center fixed;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('o-projeto-abstrato-do-fundo-ouro-amarelo.jpg') no-repeat center center fixed;
             background-size: cover;
             padding: 50px;
             text-align: center;
@@ -74,23 +84,17 @@
             margin-top: 40px;
         }
         .image-grid img {
-            width: 500px;
-            height: 900px;
-            object-fit: cover;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
             border-radius: 10px;
         }
-        /* Responsividade */
         @media (max-width: 768px) {
             .image-grid {
                 flex-direction: column;
                 align-items: center;
             }
-            .image-grid img {
-                width: 90%;
-                height: auto;
-            }
         }
-        /* Botão flutuante */
         .floating-button {
             position: fixed;
             bottom: 20px;
@@ -100,16 +104,16 @@
         }
     </style>
     <script>
-        function exibirProgramacao() {
-            document.getElementById('programacao').scrollIntoView({ behavior: 'smooth' });
+        function scrollPara(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
         }
     </script>
 </head>
 <body>
     <div class="navbar">
-        <img src="fakku bar logo novo.jpg" alt="Fakku Bar Logo">
+        <img src="fakku_bar_logo_novo.jpg" alt="Fakku Bar Logo">
         <a href="#home">Home</a>
-        <a href="#programacao" onclick="exibirProgramacao()">Programação</a>
+        <a href="javascript:void(0)" onclick="scrollPara('programacao')">Programação</a>
         <a href="#eventos">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
     </div>
@@ -117,25 +121,21 @@
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
         <div class="image-container">
-            <img src="Miniatura Youtube Jogo de Futebol Ao Vivo Transmissão de jogo e live.jpg" alt="Imagem do Fakku Bar">
+            <img src="miniatura_youtube.jpg" alt="Imagem do Fakku Bar">
         </div>
     </div>
-    
-    <!-- Seção de Programação -->
     <div id="programacao">
         <h1>PROGRAMAÇÃO DA SEMANA</h1>
         <p>Confira os eventos e atrações especiais da semana!</p>
         <div class="image-grid">
-            <img src="quarta delas.jpg" alt="quarta delas.jpg">
-            <img src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="quarta delas.jpg">
-            <img src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Story para Instagram Noite do Pagode Preto Popular.png">
-            <img src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
+            <img src="quarta_delas.jpg" alt="Quarta Delas">
+            <img src="futebol_varzea.png" alt="Futebol Várzea">
+            <img src="noite_pagode.png" alt="Noite do Pagode">
+            <img src="match_divertido.png" alt="Match Divertido">
         </div>
     </div>
-
-    <!-- Botão flutuante -->
     <a href="outra_pagina.html">
-        <img src="wpppp.png" alt="wpppp.png" class="floating-button">
+        <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
 </body>
 </html>
