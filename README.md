@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -17,10 +17,11 @@
             text-align: center;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
             position: fixed;
-            width: 100%;
+            width: 100vw;
             top: 0;
+            left: 0;
             z-index: 1000;
         }
         .navbar img {
@@ -63,7 +64,7 @@
         }
         #programacao {
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                        url('o-projeto-abstrato-do-fundo-ouro-amarelo.jpg') no-repeat center center fixed;
+                        url('imagens/o-projeto-abstrato-do-fundo-ouro-amarelo.jpg') no-repeat center center fixed;
             background-size: cover;
             padding: 50px;
             text-align: center;
@@ -111,7 +112,7 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="fakku_bar_logo_novo.jpg" alt="Fakku Bar Logo">
+        <img src="imagens/fakku_bar_logo_novo.jpg" alt="Fakku Bar Logo">
         <a href="#home">Home</a>
         <a href="javascript:void(0)" onclick="scrollPara('programacao')">Programação</a>
         <a href="#eventos">Eventos Corporativos</a>
@@ -121,21 +122,21 @@
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
         <div class="image-container">
-            <img src="miniatura_youtube.jpg" alt="Imagem do Fakku Bar">
+            <img src="imagens/miniatura_youtube.jpg" alt="Imagem do Fakku Bar">
         </div>
     </div>
     <div id="programacao">
         <h1>PROGRAMAÇÃO DA SEMANA</h1>
         <p>Confira os eventos e atrações especiais da semana!</p>
         <div class="image-grid">
-            <img src="quarta_delas.jpg" alt="Quarta Delas">
-            <img src="futebol_varzea.png" alt="Futebol Várzea">
-            <img src="noite_pagode.png" alt="Noite do Pagode">
-            <img src="match_divertido.png" alt="Match Divertido">
+            <img src="imagens/quarta_delas.jpg" alt="Quarta Delas">
+            <img src="imagens/futebol_varzea.png" alt="Futebol Várzea">
+            <img src="imagens/noite_pagode.png" alt="Noite do Pagode">
+            <img src="imagens/match_divertido.png" alt="Match Divertido">
         </div>
     </div>
     <a href="outra_pagina.html">
-        <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
+        <img src="imagens/whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
 </body>
 </html>
