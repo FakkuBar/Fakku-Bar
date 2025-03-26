@@ -135,7 +135,7 @@
 
     <!-- Botão flutuante -->
     <a href="outra_pagina.html">
-        <img src="whatsapp.jpg" alt="whatsapp.jpg" class="floating-button">
+        <img src="wpppp.png" alt="wpppp.png" class="floating-button">
     </a>
 </body>
 </html>
