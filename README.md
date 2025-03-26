@@ -72,7 +72,7 @@
         <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
         <a href="index.html">Programação</a>
         <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
-        <a href="#eventos">Eventos Corporativos</a>
+        <a href="events.html" target="_blank">Eventos Corporativos</a> <!-- Agora abre em nova aba -->
         <a href="#contato">Contato</a>
     </div>
     <div class="container">
