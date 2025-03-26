@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -51,6 +50,8 @@
         .slides {
             display: none;
             width: 100%;
+            max-height: 400px; /* Limita a altura das imagens */
+            object-fit: cover; /* Mantém a proporção da imagem */
         }
         .fade {
             animation: fadeEffect 2s infinite;
@@ -65,6 +66,33 @@
             right: 20px;
             width: 60px;
             height: 60px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .navbar a {
+                font-size: 16px; /* Reduz o tamanho da fonte em telas menores */
+                padding: 10px 15px; /* Ajusta o padding */
+            }
+            .container {
+                padding: 30px; /* Reduz o padding em telas menores */
+            }
+            .slides {
+                max-height: 300px; /* Reduz a altura máxima das imagens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar a {
+                font-size: 14px; /* Aumenta a responsividade para telas pequenas */
+                padding: 8px 10px; /* Ajusta ainda mais o padding */
+            }
+            .container {
+                padding: 20px; /* Reduz ainda mais o padding em telas muito pequenas */
+            }
+            .slides {
+                max-height: 200px; /* Altura menor para imagens em telas pequenas */
+            }
         }
     </style>
 </head>
