@@ -16,9 +16,9 @@
             text-align: center;
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between; /* Ajuste para ocupar toda a largura */
             position: fixed;
-            width: 100vw;
+            width: 100%; /* Garante que a barra ocupe toda a largura */
             top: 0;
             left: 0;
             z-index: 1000;
@@ -51,7 +51,6 @@
             display: none;
             width: 100%;
             max-height: 400px; /* Limita a altura das imagens */
-            object-fit: cover; /* Mantém a proporção da imagem */
         }
         .fade {
             animation: fadeEffect 2s infinite;
@@ -67,42 +66,17 @@
             width: 60px;
             height: 60px;
         }
-
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .navbar a {
-                font-size: 16px; /* Reduz o tamanho da fonte em telas menores */
-                padding: 10px 15px; /* Ajusta o padding */
-            }
-            .container {
-                padding: 30px; /* Reduz o padding em telas menores */
-            }
-            .slides {
-                max-height: 300px; /* Reduz a altura máxima das imagens */
-            }
-        }
-
-        @media (max-width: 480px) {
-            .navbar a {
-                font-size: 14px; /* Aumenta a responsividade para telas pequenas */
-                padding: 8px 10px; /* Ajusta ainda mais o padding */
-            }
-            .container {
-                padding: 20px; /* Reduz ainda mais o padding em telas muito pequenas */
-            }
-            .slides {
-                max-height: 200px; /* Altura menor para imagens em telas pequenas */
-            }
-        }
     </style>
 </head>
 <body>
     <div class="navbar">
         <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
-        <a href="index.html">Programação</a>
-        <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
-        <a href="#eventos">Eventos Corporativos</a>
-        <a href="#contato">Contato</a>
+        <div>
+            <a href="index.html">Programação</a>
+            <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
+            <a href="#eventos">Eventos Corporativos</a>
+            <a href="#contato">Contato</a>
+        </div>
     </div>
     <div class="container">
         <h1>Programação</h1>
