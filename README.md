@@ -1,9 +1,9 @@
-
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fakku Bar</title>
+    <title>Programação - Fakku Bar</title>
     <style>
         body {
             margin: 0;
@@ -38,31 +38,15 @@
         .navbar a:hover {
             color: #FFD700;
         }
-        @media (max-width: 768px) {
-            .navbar {
-                flex-direction: column;
-                padding: 10px;
-            }
-            .navbar img {
-                margin-bottom: 10px;
-            }
-        }
         .container {
             text-align: center;
             padding: 50px;
             margin-top: 80px;
         }
-        .main-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: auto;
-        }
         .slideshow-container {
             max-width: 80%;
             position: relative;
             margin: auto;
-            display: none;
         }
         .slides {
             display: none;
@@ -93,28 +77,30 @@
         <a href="#contato">Contato</a>
     </div>
     <div class="container">
-        <h1>Bem-vindo ao Fakku Bar</h1>
-        <p>O melhor ambiente para suas noites inesquecíveis!</p>
-        <img src="foto_principal.jpg" alt="Foto Principal" class="main-image">
+        <h1>Programação</h1>
+        <div class="slideshow-container">
+            <img class="slides fade" src="quarta delas.jpg" alt="Quarta Delas">
+            <img class="slides fade" src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Jogo de Futebol">
+            <img class="slides fade" src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Noite do Pagode">
+            <img class="slides fade" src="Story Match Divertido Marrom  (2).png" alt="Story Match">
+            <img class="slides fade" src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="Evento Especial">
+        </div>
     </div>
     <a href="outra_pagina.html">
         <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
     <script>
-        if (window.location.pathname.includes("programacao.html")) {
-            document.querySelector(".slideshow-container").style.display = "block";
-            let slideIndex = 0;
-            showSlides();
-            function showSlides() {
-                let slides = document.getElementsByClassName("slides");
-                for (let i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                slideIndex++;
-                if (slideIndex > slides.length) {slideIndex = 1}
-                slides[slideIndex - 1].style.display = "block";
-                setTimeout(showSlides, 3000); 
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            let slides = document.getElementsByClassName("slides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
             }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000);
         }
     </script>
 </body>
