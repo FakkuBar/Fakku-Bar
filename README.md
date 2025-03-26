@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -70,7 +70,7 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
+        <img src="fakku bar logo novo.jpg" alt="Fakku Bar Logo">
         <a href="index.html">Home</a>
         <a href="programacao.html">Programação</a>
         <a href="#eventos">Eventos Corporativos</a>
@@ -79,11 +79,11 @@
     <div class="container">
         <h1>Programação</h1>
         <div class="slideshow-container">
-            <img class="slides fade" src="quarta delas.jpg" alt="Quarta Delas">
-            <img class="slides fade" src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Jogo de Futebol">
-            <img class="slides fade" src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Noite do Pagode">
-            <img class="slides fade" src="Story Match Divertido Marrom  (2).png" alt="Story Match">
-            <img class="slides fade" src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="Evento Especial">
+            <img class="slides fade" src="quarta_delas.jpg" alt="Quarta Delas">
+            <img class="slides fade" src="futebol_varzea.png" alt="Jogo de Futebol">
+            <img class="slides fade" src="noite_pagode.png" alt="Noite do Pagode">
+            <img class="slides fade" src="story_match.png" alt="Story Match">
+            <img class="slides fade" src="evento_especial.jpg" alt="Evento Especial">
         </div>
     </div>
     <a href="outra_pagina.html">
