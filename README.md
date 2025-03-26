@@ -89,11 +89,11 @@
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
         <div class="slideshow-container">
-            <img class="slides fade" src="foto1.jpg" alt="Foto 1">
-            <img class="slides fade" src="foto2.jpg" alt="Foto 2">
-            <img class="slides fade" src="foto3.jpg" alt="Foto 3">
-            <img class="slides fade" src="foto4.jpg" alt="Foto 4">
-            <img class="slides fade" src="foto5.jpg" alt="Foto 5">
+            <img class="slides fade" src="quarta delas.jpg" alt="quarta delas.jpg">
+            <img class="slides fade" src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Stories Instagram jogo de futebol várzea grunge vermelho (1).png">
+            <img class="slides fade" src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Story para Instagram Noite do Pagode Preto Popular.png">
+            <img class="slides fade" src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
+            <img class="slides fade" src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="460575885_1259010748853725_7475187610060210292_n.jpg">
         </div>
     </div>
     <a href="outra_pagina.html">
