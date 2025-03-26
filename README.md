@@ -13,10 +13,9 @@
         .navbar {
             background-color: red;
             padding: 15px;
-            text-align: center;
             display: flex;
             align-items: center;
-            justify-content: space-between; /* Ajuste para ocupar toda a largura */
+            justify-content: flex-start; /* Alinha itens à esquerda */
             position: fixed;
             width: 100%; /* Garante que a barra ocupe toda a largura */
             top: 0;
@@ -24,7 +23,7 @@
             z-index: 1000;
         }
         .navbar img {
-            height: 50px;
+            height: 60px; /* Ajuste a altura conforme necessário */
             margin-right: 20px;
         }
         .navbar a {
@@ -50,7 +49,7 @@
         .slides {
             display: none;
             width: 100%;
-            max-height: 400px; /* Limita a altura das imagens */
+            height: auto; /* Permite que a altura se ajuste à largura */
         }
         .fade {
             animation: fadeEffect 2s infinite;
@@ -71,12 +70,10 @@
 <body>
     <div class="navbar">
         <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
-        <div>
-            <a href="index.html">Programação</a>
-            <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
-            <a href="#eventos">Eventos Corporativos</a>
-            <a href="#contato">Contato</a>
-        </div>
+        <a href="index.html">Programação</a>
+        <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
+        <a href="#eventos">Eventos Corporativos</a>
+        <a href="#contato">Contato</a>
     </div>
     <div class="container">
         <h1>Programação</h1>
