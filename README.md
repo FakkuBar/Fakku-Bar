@@ -107,10 +107,10 @@
 
     <div id="eventos" class="container hidden">
         <div class="slideshow-container">
-            <img class="slides fade" src="evento1.jpg" alt="Evento 1">
-            <img class="slides fade" src="evento2.jpg" alt="Evento 2">
-            <img class="slides fade" src="evento3.jpg" alt="Evento 3">
-            <img class="slides fade" src="evento4.jpg" alt="Evento 4">
+            <img class="slides fade" src="evento corporativo 1.jpg" alt="evento corporativo 1.jpg">
+            <img class="slides fade" src="evento corporativo 2.jpg" alt="evento corporativo 2.jpg">
+            <img class="slides fade" src="evento corporativo 3.jpg" alt="evento corporativo 3.jpg">
+            <img class="slides fade" src="evento corporativo 4.jpg" alt="evento corporativo 4.jpg">
         </div>
         <div class="text-box">
             <h1>Eventos Corporativos</h1>
