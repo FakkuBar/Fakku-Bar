@@ -71,8 +71,8 @@
 <body>
     <div class="navbar">
         <img src="fakku bar logo novo.jpg" alt="Fakku Bar Logo">
-        <a href="index.html">Home</a>
-        <a href="programacao.html">Programação</a>
+        <a href="index.html">Programação</a>
+        <a href="programacao.html">Cardápio</a>
         <a href="#eventos">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
     </div>
