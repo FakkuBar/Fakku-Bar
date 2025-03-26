@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programação - Fakku Bar</title>
+    <title>Fakku Bar</title>
     <style>
         body {
             margin: 0;
@@ -65,17 +65,21 @@
             width: 60px;
             height: 60px;
         }
+        .hidden {
+            display: none; /* Oculta a seção inicialmente */
+        }
     </style>
 </head>
 <body>
     <div class="navbar">
         <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
-        <a href="index.html">Programação</a>
+        <a href="#programacao" onclick="showSection('programacao')">Programação</a>
         <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
-        <a href="events.html" target="_blank">Eventos Corporativos</a> <!-- Agora abre em nova aba -->
+        <a href="#eventos" onclick="showSection('eventos')">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
     </div>
-    <div class="container">
+
+    <div id="programacao" class="container">
         <h1>Programação</h1>
         <div class="slideshow-container">
             <img class="slides fade" src="quarta delas.jpg" alt="quarta delas.jpg">
@@ -85,12 +89,21 @@
             <img class="slides fade" src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="460575885_1259010748853725_7475187610060210292_n.jpg">
         </div>
     </div>
+
+    <div id="eventos" class="container hidden">
+        <h1>Eventos Corporativos</h1>
+        <p>Aqui você encontrará informações sobre nossos eventos corporativos.</p>
+        <!-- Adicione mais conteúdo sobre eventos corporativos aqui -->
+    </div>
+
     <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link">
         <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
+
     <script>
         let slideIndex = 0;
         showSlides();
+
         function showSlides() {
             let slides = document.getElementsByClassName("slides");
             for (let i = 0; i < slides.length; i++) {
@@ -100,6 +113,14 @@
             if (slideIndex > slides.length) {slideIndex = 1}
             slides[slideIndex - 1].style.display = "block";
             setTimeout(showSlides, 3000);
+        }
+
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.container');
+            sections.forEach(section => {
+                section.classList.add('hidden');
+            });
+            document.getElementById(sectionId).classList.remove('hidden');
         }
     </script>
 </body>
