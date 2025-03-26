@@ -72,7 +72,7 @@
     <div class="navbar">
         <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
         <a href="index.html">Programação</a>
-        <a href="cardapio.pdf" target="_blank">Cardápio</a>
+        <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
         <a href="#eventos">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
     </div>
@@ -86,7 +86,7 @@
             <img class="slides fade" src="evento_especial.jpg" alt="evento_especial.jpg">
         </div>
     </div>
-    <a href="Design sem nome.pdf">
+    <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link">
         <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
     <script>
