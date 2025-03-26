@@ -79,11 +79,11 @@
     <div class="container">
         <h1>Programação</h1>
         <div class="slideshow-container">
-            <img class="slides fade" src="quarta_delas.jpg" alt="quarta_delas.jpg">
-            <img class="slides fade" src="futebol_varzea.png" alt="futebol_varzea.png">
-            <img class="slides fade" src="noite_pagode.png" alt="noite_pagode.png">
-            <img class="slides fade" src="story_match.png" alt="story_match.png">
-            <img class="slides fade" src="evento_especial.jpg" alt="evento_especial.jpg">
+            <img class="slides fade" src="quarta delas.jpg" alt="quarta delas.jpg">
+            <img class="slides fade" src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Stories Instagram jogo de futebol várzea grunge vermelho (1).png">
+            <img class="slides fade" src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Story para Instagram Noite do Pagode Preto Popular.png">
+            <img class="slides fade" src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
+            <img class="slides fade" src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="460575885_1259010748853725_7475187610060210292_n.jpg">
         </div>
     </div>
     <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link">
