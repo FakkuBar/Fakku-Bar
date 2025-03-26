@@ -52,10 +52,17 @@
             padding: 50px;
             margin-top: 80px;
         }
+        .main-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
         .slideshow-container {
             max-width: 80%;
             position: relative;
             margin: auto;
+            display: none;
         }
         .slides {
             display: none;
@@ -81,36 +88,33 @@
     <div class="navbar">
         <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
         <a href="index.html">Home</a>
-        <a href="index.html">Programação</a>
+        <a href="programacao.html">Programação</a>
         <a href="#eventos">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
     </div>
     <div class="container">
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
-        <div class="slideshow-container">
-            <img class="slides fade" src="quarta delas.jpg" alt="quarta delas.jpg">
-            <img class="slides fade" src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Stories Instagram jogo de futebol várzea grunge vermelho (1).png">
-            <img class="slides fade" src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Story para Instagram Noite do Pagode Preto Popular.png">
-            <img class="slides fade" src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
-            <img class="slides fade" src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="460575885_1259010748853725_7475187610060210292_n.jpg">
-        </div>
+        <img src="foto_principal.jpg" alt="Foto Principal" class="main-image">
     </div>
     <a href="outra_pagina.html">
         <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
     <script>
-        let slideIndex = 0;
-        showSlides();
-        function showSlides() {
-            let slides = document.getElementsByClassName("slides");
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+        if (window.location.pathname.includes("programacao.html")) {
+            document.querySelector(".slideshow-container").style.display = "block";
+            let slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                let slides = document.getElementsByClassName("slides");
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 3000); 
             }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 3000); 
         }
     </script>
 </body>
