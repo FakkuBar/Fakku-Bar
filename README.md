@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -74,8 +74,8 @@
 <body>
     <div class="navbar">
         <img src="fakku bar logo novo.jpg" alt="fakku bar logo novo.jpg">
-        <a href="#home">Home</a>
-        <a href="programacao.html" target="_blank">Programação</a>
+        <a href="index.html">Home</a>
+        <a href="index.html">Programação</a>
         <a href="#eventos">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
     </div>
