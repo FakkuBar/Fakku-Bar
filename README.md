@@ -40,13 +40,14 @@
             text-align: center;
             padding: 50px;
             margin-top: 80px;
-            display: flex; /* Usar flexbox para layout */
-            justify-content: center; /* Centraliza o conteúdo */
-            align-items: center; /* Alinha no centro verticalmente */
+        }
+        .programacao-container {
+            display: flex;
             flex-direction: column; /* Coloca itens em coluna */
+            align-items: center; /* Centraliza horizontalmente */
         }
         .slideshow-container {
-            max-width: 50%; /* Largura do slideshow ajustada */
+            max-width: 80%; /* Largura do slideshow */
             position: relative;
             margin: auto;
         }
@@ -56,11 +57,15 @@
             height: auto; /* Permite que a altura se ajuste à largura */
         }
         .fade {
-            animation: fadeEffect 1s infinite; /* Alterado para loop contínuo */
+            animation: fadeEffect 5s infinite; /* Loop contínuo */
         }
         @keyframes fadeEffect {
             from {opacity: 0;} 
             to {opacity: 1;}
+        }
+        .eventos-container {
+            display: flex; /* Usar flexbox para disposição horizontal */
+            align-items: flex-start; /* Alinha no topo */
         }
         .text-box {
             max-width: 45%; /* Largura da caixa de texto */
@@ -69,6 +74,7 @@
             border-radius: 10px;
             color: white;
             text-align: left;
+            margin-left: 20px; /* Espaçamento à esquerda da caixa de texto */
         }
         .floating-button {
             position: fixed;
@@ -96,27 +102,31 @@
 
     <div id="programacao" class="container">
         <h1>Programação Semanal</h1> <!-- Título atualizado -->
-        <div class="slideshow-container">
-            <img class="slides fade" src="quarta delas.jpg" alt="quarta delas.jpg">
-            <img class="slides fade" src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Stories Instagram jogo de futebol várzea grunge vermelho (1).png">
-            <img class="slides fade" src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Story para Instagram Noite do Pagode Preto Popular.png">
-            <img class="slides fade" src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
-            <img class="slides fade" src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="460575885_1259010748853725_7475187610060210292_n.jpg">
+        <div class="programacao-container">
+            <div class="slideshow-container">
+                <img class="slides fade" src="quarta delas.jpg" alt="quarta delas.jpg">
+                <img class="slides fade" src="Stories Instagram jogo de futebol várzea grunge vermelho (1).png" alt="Stories Instagram jogo de futebol várzea grunge vermelho (1).png">
+                <img class="slides fade" src="Story para Instagram Noite do Pagode Preto Popular.png" alt="Story para Instagram Noite do Pagode Preto Popular.png">
+                <img class="slides fade" src="Story Match Divertido Marrom  (2).png" alt="Story Match Divertido Marrom  (2).png">
+                <img class="slides fade" src="460575885_1259010748853725_7475187610060210292_n.jpg" alt="460575885_1259010748853725_7475187610060210292_n.jpg">
+            </div>
         </div>
     </div>
 
     <div id="eventos" class="container hidden">
-        <div class="slideshow-container" style="align-self: flex-start;"> <!-- Alinhado à esquerda -->
-            <img class="slides fade" src="evento corporativo 1.jpg" alt="evento corporativo 1.jpg">
-            <img class="slides fade" src="evento corporativo 2.jpg" alt="evento corporativo 2.jpg">
-            <img class="slides fade" src="evento corporativo 3.jpg" alt="evento corporativo 3.jpg">
-            <img class="slides fade" src="evento corporativo 4.jpg" alt="evento corporativo 4.jpg">
-        </div>
-        <div class="text-box">
-            <h1>Eventos Corporativos</h1>
-            <p>Aqui você encontrará informações sobre nossos eventos corporativos.</p>
-            <p>Estamos prontos para atender suas necessidades e fazer de seu evento um sucesso!</p>
-            <!-- Adicione mais conteúdo sobre eventos corporativos aqui -->
+        <div class="eventos-container">
+            <div class="slideshow-container"> <!-- Slideshow no canto esquerdo -->
+                <img class="slides fade" src="evento corporativo 1.jpg" alt="evento corporativo 1.jpg">
+                <img class="slides fade" src="evento corporativo 2.jpg" alt="evento corporativo 2.jpg">
+                <img class="slides fade" src="evento corporativo 3.jpg" alt="evento corporativo 3.jpg">
+                <img class="slides fade" src="evento corporativo 4.jpg" alt="evento corporativo 4.jpg">
+            </div>
+            <div class="text-box">
+                <h1>Eventos Corporativos</h1>
+                <p>Aqui você encontrará informações sobre nossos eventos corporativos.</p>
+                <p>Estamos prontos para atender suas necessidades e fazer de seu evento um sucesso!</p>
+                <!-- Adicione mais conteúdo sobre eventos corporativos aqui -->
+            </div>
         </div>
     </div>
 
@@ -136,7 +146,7 @@
             slideIndex++;
             if (slideIndex > slides.length) {slideIndex = 1}
             slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 1000); // Tempo reduzido para 1 segundo para loop contínuo
+            setTimeout(showSlides, 1000); // Tempo reduzido para 5 segundo para loop contínuo
         }
 
         function showSection(sectionId) {
