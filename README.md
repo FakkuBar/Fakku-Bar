@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -62,40 +62,6 @@
             max-width: 800px;
             height: auto;
         }
-        #programacao {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                        url('imagens/o-projeto-abstrato-do-fundo-ouro-amarelo.jpg') no-repeat center center fixed;
-            background-size: cover;
-            padding: 50px;
-            text-align: center;
-            position: relative;
-            z-index: 1;
-        }
-        #programacao h1 {
-            font-size: 48px;
-            font-weight: bold;
-            margin-top: 20px;
-            text-transform: uppercase;
-        }
-        .image-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 40px;
-        }
-        .image-grid img {
-            width: 100%;
-            max-width: 400px;
-            height: auto;
-            border-radius: 10px;
-        }
-        @media (max-width: 768px) {
-            .image-grid {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
         .floating-button {
             position: fixed;
             bottom: 20px;
@@ -104,17 +70,12 @@
             height: 60px;
         }
     </style>
-    <script>
-        function scrollPara(id) {
-            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
 </head>
 <body>
     <div class="navbar">
-        <img src="fakku_bar_logo_novo.jpg" alt="fakku_bar_logo_novo.jpg">
+        <img src="fakku_bar_logo_novo.jpg" alt="Fakku Bar Logo">
         <a href="#home">Home</a>
-        <a href="javascript:void(0)" onclick="scrollPara('programacao')">Programação</a>
+        <a href="programacao.html" target="_blank">Programação</a>
         <a href="#eventos">Eventos Corporativos</a>
         <a href="#contato">Contato</a>
     </div>
@@ -122,21 +83,11 @@
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
         <div class="image-container">
-            <img src="miniatura_youtube.jpg" alt="miniatura_youtube.jpg">
-        </div>
-    </div>
-    <div id="programacao">
-        <h1>PROGRAMAÇÃO DA SEMANA</h1>
-        <p>Confira os eventos e atrações especiais da semana!</p>
-        <div class="image-grid">
-            <img src="quarta_delas.jpg" alt="quarta_delas.jpgs">
-            <img src="futebol_varzea.png" alt="futebol_varzea.png">
-            <img src="noite_pagode.png" alt="noite_pagode.png">
-            <img src="match_divertido.png" alt="match_divertido.png">
+            <img src="miniatura_youtube.jpg" alt="Miniatura YouTube">
         </div>
     </div>
     <a href="outra_pagina.html">
-        <img src="whatsapp_icon.png" alt="whatsapp_icon.png" class="floating-button">
+        <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
     </a>
 </body>
 </html>
