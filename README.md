@@ -46,7 +46,7 @@
             flex-direction: column; /* Coloca itens em coluna */
         }
         .slideshow-container {
-            max-width: 80%; /* Largura do slideshow */
+            max-width: 50%; /* Largura do slideshow ajustada */
             position: relative;
             margin: auto;
         }
@@ -56,10 +56,10 @@
             height: auto; /* Permite que a altura se ajuste à largura */
         }
         .fade {
-            animation: fadeEffect 2s infinite;
+            animation: fadeEffect 1s infinite; /* Alterado para loop contínuo */
         }
         @keyframes fadeEffect {
-            from {opacity: 0.4;} 
+            from {opacity: 0;} 
             to {opacity: 1;}
         }
         .text-box {
@@ -106,7 +106,7 @@
     </div>
 
     <div id="eventos" class="container hidden">
-        <div class="slideshow-container">
+        <div class="slideshow-container" style="align-self: flex-start;"> <!-- Alinhado à esquerda -->
             <img class="slides fade" src="evento corporativo 1.jpg" alt="evento corporativo 1.jpg">
             <img class="slides fade" src="evento corporativo 2.jpg" alt="evento corporativo 2.jpg">
             <img class="slides fade" src="evento corporativo 3.jpg" alt="evento corporativo 3.jpg">
@@ -136,7 +136,7 @@
             slideIndex++;
             if (slideIndex > slides.length) {slideIndex = 1}
             slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 3000);
+            setTimeout(showSlides, 1000); // Tempo reduzido para 1 segundo para loop contínuo
         }
 
         function showSection(sectionId) {
