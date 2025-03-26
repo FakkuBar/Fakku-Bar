@@ -112,7 +112,7 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="imagens/fakku_bar_logo_novo.jpg" alt="Fakku Bar Logo">
+        <img src="fakku_bar_logo_novo.jpg" alt="fakku_bar_logo_novo.jpg">
         <a href="#home">Home</a>
         <a href="javascript:void(0)" onclick="scrollPara('programacao')">Programação</a>
         <a href="#eventos">Eventos Corporativos</a>
@@ -122,21 +122,21 @@
         <h1>Bem-vindo ao Fakku Bar</h1>
         <p>O melhor ambiente para suas noites inesquecíveis!</p>
         <div class="image-container">
-            <img src="imagens/miniatura_youtube.jpg" alt="Imagem do Fakku Bar">
+            <img src="miniatura_youtube.jpg" alt="miniatura_youtube.jpg">
         </div>
     </div>
     <div id="programacao">
         <h1>PROGRAMAÇÃO DA SEMANA</h1>
         <p>Confira os eventos e atrações especiais da semana!</p>
         <div class="image-grid">
-            <img src="imagens/quarta_delas.jpg" alt="Quarta Delas">
-            <img src="imagens/futebol_varzea.png" alt="Futebol Várzea">
-            <img src="imagens/noite_pagode.png" alt="Noite do Pagode">
-            <img src="imagens/match_divertido.png" alt="Match Divertido">
+            <img src="quarta_delas.jpg" alt="quarta_delas.jpgs">
+            <img src="futebol_varzea.png" alt="futebol_varzea.png">
+            <img src="noite_pagode.png" alt="noite_pagode.png">
+            <img src="match_divertido.png" alt="match_divertido.png">
         </div>
     </div>
     <a href="outra_pagina.html">
-        <img src="imagens/whatsapp_icon.png" alt="WhatsApp" class="floating-button">
+        <img src="whatsapp_icon.png" alt="whatsapp_icon.png" class="floating-button">
     </a>
 </body>
 </html>
