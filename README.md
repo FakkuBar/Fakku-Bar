@@ -57,7 +57,7 @@
             height: auto; /* Permite que a altura se ajuste à largura */
         }
         .fade {
-            animation: fadeEffect 5s infinite; /* Loop contínuo */
+            animation: fadeEffect 1s; /* Animação de fade */
         }
         @keyframes fadeEffect {
             from {opacity: 0;} 
@@ -136,17 +136,18 @@
 
     <script>
         let slideIndex = 0;
+        const slideInterval = 3000; // Tempo de exibição de cada slide (3 segundos)
         showSlides();
 
         function showSlides() {
             let slides = document.getElementsByClassName("slides");
             for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+                slides[i].style.display = "none"; // Esconde todas as imagens
             }
             slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 1000); // Tempo reduzido para 5 segundo para loop contínuo
+            if (slideIndex > slides.length) {slideIndex = 1} // Reinicia o contador
+            slides[slideIndex - 1].style.display = "block"; // Mostra a imagem atual
+            setTimeout(showSlides, slideInterval); // Aguarda o tempo definido antes de mudar para o próximo slide
         }
 
         function showSection(sectionId) {
