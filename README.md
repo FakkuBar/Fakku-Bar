@@ -133,7 +133,7 @@
 
     <script>
         let slideIndex = 0;
-        const slideInterval = 3000; // Tempo de exibição de cada slide (3 segundos)
+        const slideInterval = 4000; // Tempo de exibição de cada slide (4 segundos)
         showSlides();
 
         function showSlides() {
