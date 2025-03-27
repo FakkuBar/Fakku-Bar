@@ -55,13 +55,10 @@
             display: none;
             width: 100%;
             height: auto; /* Permite que a altura se ajuste à largura */
+            transition: opacity 1s ease-in-out; /* Transição suave */
         }
         .fade {
-            animation: fadeEffect 1s; /* Animação de fade */
-        }
-        @keyframes fadeEffect {
-            from {opacity: 0;} 
-            to {opacity: 1;}
+            opacity: 1; /* Inicializa a opacidade */
         }
         .eventos-container {
             display: flex; /* Usar flexbox para disposição horizontal */
@@ -142,11 +139,11 @@
         function showSlides() {
             let slides = document.getElementsByClassName("slides");
             for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none"; // Esconde todas as imagens
+                slides[i].style.opacity = 0; // Esconde todas as imagens
             }
             slideIndex++;
             if (slideIndex > slides.length) {slideIndex = 1} // Reinicia o contador
-            slides[slideIndex - 1].style.display = "block"; // Mostra a imagem atual
+            slides[slideIndex - 1].style.opacity = 1; // Mostra a imagem atual
             setTimeout(showSlides, slideInterval); // Aguarda o tempo definido antes de mudar para o próximo slide
         }
 
