@@ -94,7 +94,7 @@
         <a href="#programacao" onclick="showSection('programacao')">Programação</a>
         <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
         <a href="#eventos" onclick="showSection('eventos')">Eventos Corporativos</a>
-        <a href="#contato">Contato</a>
+        <a href="https://www.instagram.com/fakkubar?igsh=dXhkbTRva3Q0OTRu">Contato</a> <!-- Link de contato adicionado -->
     </div>
 
     <div id="programacao" class="container">
