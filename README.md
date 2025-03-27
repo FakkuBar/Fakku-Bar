@@ -73,13 +73,6 @@
             text-align: left;
             margin-left: 20px; /* Espaçamento à esquerda da caixa de texto */
         }
-        .floating-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 60px;
-            height: 60px;
-        }
         .hidden {
             display: none; /* Oculta a seção inicialmente */
         }
@@ -94,7 +87,7 @@
         <a href="#programacao" onclick="showSection('programacao')">Programação</a>
         <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link" target="_blank">Cardápio</a>
         <a href="#eventos" onclick="showSection('eventos')">Eventos Corporativos</a>
-        <a href="https://www.instagram.com/fakkubar?igsh=dXhkbTRva3Q0OTRu">Contato</a> <!-- Link de contato adicionado -->
+        <a href="mailto:contato@fakkubar.com">Contato</a> <!-- Link de contato -->
     </div>
 
     <div id="programacao" class="container">
@@ -129,10 +122,6 @@
             </div>
         </div>
     </div>
-
-    <a href="https://drive.google.com/file/d/1SGHjepQ1B6WGl8trWKwrsLNKiFWiccv1/view?usp=drive_link">
-        <img src="whatsapp_icon.png" alt="WhatsApp" class="floating-button">
-    </a>
 
     <script>
         let slideIndex = 0;
