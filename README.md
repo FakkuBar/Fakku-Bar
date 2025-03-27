@@ -120,9 +120,12 @@
             </div>
             <div class="text-box">
                 <h1>Eventos Corporativos</h1>
-                <p>Aqui você encontrará informações sobre nossos eventos corporativos.</p>
-                <p>Estamos prontos para atender suas necessidades e fazer de seu evento um sucesso!</p>
-                <!-- Adicione mais conteúdo sobre eventos corporativos aqui -->
+                <p>🎉 <strong>Realize Seu Evento Conosco no Fakku Bar!</strong> 🎉</p>
+                <p>Você está planejando uma festa de aniversário, um evento corporativo ou uma celebração especial? No Fakku Bar, oferecemos o ambiente perfeito para tornar seu evento inesquecível!</p>
+                <p>🍹 <strong>Ambiente Aconchegante</strong><br>
+                   🎶 <strong>Música Ao Vivo</strong><br>
+                   🍽️ <strong>Cardápio Personalizado</strong></p>
+                <p>Entre em contato e venha conhecer nossas opções! Esperamos por você!</p>
             </div>
         </div>
     </div>
